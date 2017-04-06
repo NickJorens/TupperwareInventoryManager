@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="panel-footer">
-                            <button type="submit" class="btn btn-primary pull-right">Save</button>
+                            <button type="submit" class="btn btn-primary">Save</button>
                         </div>
                     </form>
                 </div>

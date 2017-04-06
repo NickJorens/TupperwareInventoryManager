@@ -28,9 +28,7 @@
                             </div>
                         </div>
                         <div class="panel-footer">
-                            <div>
-                            <button type="submit" class="btn btn-primary pull-right">Add</button>
-                            </div>
+                            <button type="submit" class="btn btn-primary">Add</button>
                         </div>
                     </form>
                 </div>

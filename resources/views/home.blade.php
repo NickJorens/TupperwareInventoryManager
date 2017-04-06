@@ -51,6 +51,9 @@
                                             },
                                             data: {'method': 'subtract'},
                                             success: function (data) {
+                                                if(parseInt($('#amount-{{ $product->id }}').html()) - 1 === 0){
+                                                    $('#amount-{{ $product->id }}').parent('tr').remove();
+                                                }
                                                 $('#amount-{{ $product->id }}').html(parseInt($('#amount-{{ $product->id }}').html()) - 1);
                                             }
                                         });
@@ -62,9 +65,7 @@
                         </table>
                     </div>
                     <div class="panel-footer">
-                        <div>
-                            <a href="{{ url('inventory/create') }}" class="btn btn-success pull-right">Add Product</a>
-                        </div>
+                            <a href="{{ url('inventory/create') }}" class="btn btn-success right">Add Product</a>
                     </div>
                 </div>
             </div>
