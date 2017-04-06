@@ -14,3 +14,22 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::get('/category', 'CategoryController@index');
+Route::get('/category/create', 'CategoryController@create');
+Route::post('/category', 'CategoryController@store');
+
+Route::get('/product', 'ProductController@index');
+Route::get('/product/create', 'ProductController@create');
+Route::post('/product', 'ProductController@store');
+
+Route::get('/inventory', 'InventoryController@index');
+Route::get('/inventory/create', 'InventoryController@create');
+Route::post('/inventory', 'InventoryController@store');
+Route::put('/inventory/{productId}', 'InventoryController@update');
+
+

@@ -167,6 +167,8 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Spatie\Tags\TagsServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...

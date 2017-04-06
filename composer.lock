@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c299fd7c6ab9fc3b1a3577ec40855d0b",
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "hash": "fa1711aea26999160c6bff51b200afa6",
+    "content-hash": "a5abca231d1db42eb82d2eec709c886e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -981,6 +981,283 @@
                 "uuid"
             ],
             "time": "2017-03-26 20:37:53"
+        },
+        {
+            "name": "spatie/eloquent-sortable",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/eloquent-sortable.git",
+                "reference": "16c9828fa2cd50b720b03d647a8fc37b64a8fb95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/eloquent-sortable/zipball/16c9828fa2cd50b720b03d647a8fc37b64a8fb95",
+                "reference": "16c9828fa2cd50b720b03d647a8fc37b64a8fb95",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.3.0|~5.4.0",
+                "illuminate/support": "~5.3.0|~5.4.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.3.0|~3.4.0",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\EloquentSortable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be"
+                }
+            ],
+            "description": "Sortable behaviour for eloquent models",
+            "homepage": "https://github.com/spatie/eloquent-sortable",
+            "keywords": [
+                "behaviour",
+                "eloquent",
+                "laravel",
+                "model",
+                "sort",
+                "sortable"
+            ],
+            "time": "2017-01-23 09:32:16"
+        },
+        {
+            "name": "spatie/laravel-migrate-fresh",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-migrate-fresh.git",
+                "reference": "d7844712788563089d60ac648cc221b2b4e8a884"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-migrate-fresh/zipball/d7844712788563089d60ac648cc221b2b4e8a884",
+                "reference": "d7844712788563089d60ac648cc221b2b4e8a884",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.3.28",
+                "illuminate/events": "^5.3.28",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.7",
+                "orchestra/testbench": "^3.3",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\MigrateFresh\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A command to build up the database from scratch",
+            "homepage": "https://github.com/spatie/laravel-migrate-fresh",
+            "keywords": [
+                "database",
+                "eloquent",
+                "fresh",
+                "laravel-migrate-fresh",
+                "migrate",
+                "spatie"
+            ],
+            "time": "2017-03-22 19:47:39"
+        },
+        {
+            "name": "spatie/laravel-permission",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-permission.git",
+                "reference": "837ff988016824318efe30c32947146c393a273f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/837ff988016824318efe30c32947146c393a273f",
+                "reference": "837ff988016824318efe30c32947146c393a273f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0|~5.4.0",
+                "laravel/framework": "~5.1.11|~5.2.0|~5.3.0|~5.4.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "monolog/monolog": "^1.22",
+                "orchestra/testbench": "~3.3.0|~3.4.0",
+                "phpunit/phpunit": "^5.7.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Permission\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Permission handling for Laravel 5.1 and up",
+            "homepage": "https://github.com/spatie/laravel-permission",
+            "keywords": [
+                "acl",
+                "laravel",
+                "permission",
+                "security",
+                "spatie"
+            ],
+            "time": "2017-03-14 19:14:04"
+        },
+        {
+            "name": "spatie/laravel-tags",
+            "version": "1.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-tags.git",
+                "reference": "09be895bc17771a8cf1c152b893c938f5acb355c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/09be895bc17771a8cf1c152b893c938f5acb355c",
+                "reference": "09be895bc17771a8cf1c152b893c938f5acb355c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "~5.3.0|~5.4.0",
+                "illuminate/contracts": "~5.3.0|~5.4.0",
+                "illuminate/database": "~5.3.0|~5.4.0",
+                "illuminate/support": "~5.3.0|~5.4.0",
+                "php": "^7.0",
+                "spatie/eloquent-sortable": "^3.2",
+                "spatie/laravel-translatable": "^1.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.3.0|~3.4.0",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Tags\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add tags and taggable behaviour to your Laravel app",
+            "homepage": "https://github.com/spatie/laravel-tags",
+            "keywords": [
+                "laravel-tags",
+                "spatie"
+            ],
+            "time": "2017-02-13 18:51:59"
+        },
+        {
+            "name": "spatie/laravel-translatable",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-translatable.git",
+                "reference": "26f04cb7a4e19a167815e1107768d4a294d9808d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-translatable/zipball/26f04cb7a4e19a167815e1107768d4a294d9808d",
+                "reference": "26f04cb7a4e19a167815e1107768d4a294d9808d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.3.0|~5.4.0",
+                "illuminate/support": "~5.3.0|~5.4.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "orchestra/testbench": "~3.3.0|~3.4.0",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Translatable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "theMohamedSaid@gmail.com",
+                    "role": "Original idea"
+                }
+            ],
+            "description": "A trait to make an Eloquent model hold translations",
+            "homepage": "https://github.com/spatie/laravel-translatable",
+            "keywords": [
+                "eloquent",
+                "i8n",
+                "laravel-translatable",
+                "model",
+                "multilingual",
+                "spatie",
+                "translate"
+            ],
+            "time": "2017-01-28 08:32:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
